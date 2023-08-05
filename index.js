@@ -5,7 +5,7 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   console.log(req.rawHeaders);
-  res.send("Hello, World!");
+  res.send("<h1>Hello</h1>");
 });
 
 app.listen(port, () => {
